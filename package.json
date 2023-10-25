@@ -1,12 +1,12 @@
 {
-  "name": "vue-sidebar-menu",
+  "name": "it-vue-sidebar-menu",
   "description": "A Vue.js Sidebar Menu Component",
-  "version": "5.2.11",
-  "author": "yaminncco <yaminncco@gmail.com>",
+  "version": "1.0.1",
+  "author": "itartweb <itartweb@gmail.com>",
   "license": "MIT",
-  "main": "dist/vue-sidebar-menu.js",
-  "module": "dist/vue-sidebar-menu.esm.js",
-  "unpkg": "dist/vue-sidebar-menu.min.js",
+  "main": "dist/it-vue-sidebar-menu.js",
+  "module": "dist/it-vue-sidebar-menu.esm.js",
+  "unpkg": "dist/it-vue-sidebar-menu.min.js",
   "types": "./types/index.d.ts",
   "files": [
     "dist",
@@ -15,9 +15,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaminncco/vue-sidebar-menu.git"
+    "url": "https://github.com/itartweb/vue-sidebar-menu.git"
   },
-  "homepage": "https://yaminncco.github.io/vue-sidebar-menu/",
+  "homepage": "https://itartweb.github.io/vue-sidebar-menu/",
   "keywords": [
     "vue",
     "vue-component",
