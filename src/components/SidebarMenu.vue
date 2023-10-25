@@ -4,7 +4,19 @@
     :class="[sidebarClass]"
     :style="{ 'max-width': sidebarWidth }"
   >
-    <slot name="header" />
+    <div class="vsm--header">
+      <div class="navbar-brand"><slot name="header" /></div>
+      <button
+        v-if="!hideToggle"
+        class="vsm--toggle-btn"
+        :aria-label="collapsed ? 'Expand sidebar' : 'Collapse sidebar'"
+        @click="onToggleClick"
+      >
+        <slot name="toggle-icon">
+          <span class="vsm--toggle-btn_default" />
+        </slot>
+      </button>
+    </div>
     <sidebar-menu-scroll>
       <ul class="vsm--menu" :style="{ width: sidebarWidth }">
         <sidebar-menu-item
@@ -21,16 +33,6 @@
       </ul>
     </sidebar-menu-scroll>
     <slot name="footer" />
-    <button
-      v-if="!hideToggle"
-      class="vsm--toggle-btn"
-      :aria-label="collapsed ? 'Expand sidebar' : 'Collapse sidebar'"
-      @click="onToggleClick"
-    >
-      <slot name="toggle-icon">
-        <span class="vsm--toggle-btn_default" />
-      </slot>
-    </button>
   </div>
 </template>
 
@@ -192,5 +194,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../scss/vue-sidebar-menu';
+@import '../scss/it-vue-sidebar-menu';
 </style>

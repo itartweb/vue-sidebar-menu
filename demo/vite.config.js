@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/vue-sidebar-menu/',
+  base: '/it-vue-sidebar-menu/',
   build: {
     outDir: '../docs',
   },

@@ -6,7 +6,10 @@
     :show-one-child="true"
     @update:collapsed="onToggleCollapse"
     @item-click="onItemClick"
-  />
+  >
+    <template v-slot:header><a href="/">Test</a></template>
+    <template v-slot:footer>test</template>
+  </sidebar-menu>
   <div
     v-if="isOnMobile && !collapsed"
     class="sidebar-overlay"
@@ -16,7 +19,7 @@
     <div class="demo">
       <div class="container">
         <h1>
-          vue-sidebar-menu
+          it-vue-sidebar-menu
           <a
             style="
               color: #000;
@@ -24,7 +27,7 @@
               font-size: 14px;
               font-weight: 400;
             "
-            href="https://github.com/yaminncco/vue-sidebar-menu"
+            href="https://github.com/itartweb/it-vue-sidebar-menu"
           >
             Github
           </a>

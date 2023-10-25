@@ -4,9 +4,9 @@ A Vue.js sidebar menu component with vue-router compatibility
 
 ## Demo
 
-[vue-sidebar-menu-demo](https://yaminncco.github.io/vue-sidebar-menu/)
+[it-vue-sidebar-menu-demo](https://itartweb.github.io/it-vue-sidebar-menu/)
 
-### :warning: This documentation is for Vue 3, for Vue 2 [click here](https://github.com/yaminncco/vue-sidebar-menu/tree/vue2)
+### :warning: This documentation is for Vue 3, for Vue 2 [click here](https://github.com/itartweb/it-vue-sidebar-menu)
 
 ## What new in v5.0.0
 
@@ -19,7 +19,7 @@ A Vue.js sidebar menu component with vue-router compatibility
 ## Installation
 
 ```
-npm i vue-sidebar-menu --save
+npm i it-vue-sidebar-menu --save
 ```
 
 Install the plugin globally.
@@ -28,8 +28,8 @@ Install the plugin globally.
 //main.js
 import { createApp } from 'vue'
 import App from './App.vue'
-import VueSidebarMenu from 'vue-sidebar-menu'
-import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
+import VueSidebarMenu from 'it-vue-sidebar-menu'
+import 'vue-sidebar-menu/dist/it-vue-sidebar-menu.css'
 
 const app = createApp(App)
 app.use(VueSidebarMenu)
@@ -40,8 +40,8 @@ Or import the component locally.
 
 ```js
 //App.vue
-import { SidebarMenu } from 'vue-sidebar-menu'
-import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
+import { SidebarMenu } from 'it-vue-sidebar-menu'
+import 'vue-sidebar-menu/dist/it-vue-sidebar-menu.css'
 export default {
   components: {
     SidebarMenu,
@@ -291,7 +291,7 @@ or you can override Sass variables (complete list of all variables can be found 
 
 ```scss
 @import 'custom-var.scss';
-@import 'vue-sidebar-menu/src/scss/vue-sidebar-menu.scss';
+@import 'it-vue-sidebar-menu/src/scss/it-vue-sidebar-menu.scss';
 ```
 
 ## Slots

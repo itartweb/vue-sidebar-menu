@@ -20,13 +20,9 @@ $toggle-btn-bg: darken($base-bg, 5%);
     &_level-1 {
       &.vsm--link_active {
         box-shadow: 3px 0px 0px 0px $item-active-line-color inset;
-        & .vsm--icon {
+        &.vsm--icon {
           color: $icon-active-color;
-          background-color: $icon-active-bg;
         }
-      }
-      & .vsm--icon {
-        background-color: $icon-bg;
       }
     }
     &_hover {
@@ -56,7 +52,6 @@ $toggle-btn-bg: darken($base-bg, 5%);
       &.vsm--link_hover {
         .vsm--icon {
           color: $mobile-icon-color;
-          background-color: $mobile-icon-bg;
         }
       }
     }
@@ -68,10 +63,10 @@ $toggle-btn-bg: darken($base-bg, 5%);
 
   .vsm--dropdown {
     background-color: $dropdown-bg;
-    & .vsm--link {
+    &.vsm--link {
       color: $dropdown-color;
     }
-    & .vsm--icon {
+    &.vsm--icon {
       color: $dropdown-color;
     }
   }

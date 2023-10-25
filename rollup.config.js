@@ -19,7 +19,7 @@ const plugins = [
     presets: ['@babel/preset-env'],
   }),
   postcss({
-    extract: path.resolve('dist/vue-sidebar-menu.css'),
+    extract: path.resolve('dist/it-vue-sidebar-menu.css'),
     minimize: true,
     sourceMap: true,
   }),
@@ -40,7 +40,7 @@ export default {
       format: 'umd',
       exports: 'named',
       sourcemap: true,
-      name: 'vue-sidebar-menu',
+      name: 'it-vue-sidebar-menu',
       globals: {
         vue: 'Vue',
       },
@@ -50,7 +50,7 @@ export default {
       format: 'iife',
       exports: 'named',
       sourcemap: true,
-      name: 'VueSidebarMenu',
+      name: 'ItVueSidebarMenu',
       globals: {
         vue: 'Vue',
       },

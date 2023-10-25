@@ -71,7 +71,7 @@ export interface SidebarComponentItem {
 export class SidebarMenu {
   /**
    * List of Items in the menu
-   * Follow https://github.com/yaminncco/vue-sidebar-menu#item-properties
+   * Follow https://github.com/itartweb/it-vue-sidebar-menu#item-properties
    */
   menu: Array<SidebarItem | SidebarComponentItem | SidebarHeaderItem>;
 

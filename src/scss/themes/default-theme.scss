@@ -9,13 +9,9 @@
     &_level-1 {
       &.vsm--link_active {
         box-shadow: 3px 0px 0px 0px $item-active-line-color inset;
-        & .vsm--icon {
+        &.vsm--icon {
           color: $icon-active-color;
-          background-color: $icon-active-bg;
         }
-      }
-      & .vsm--icon {
-        background-color: $icon-bg;
       }
     }
     &_hover {
@@ -32,9 +28,8 @@
       &.vsm--link_open {
         color: $item-open-color;
         background-color: $item-open-bg;
-        & .vsm--icon {
+        &.vsm--icon {
           color: $icon-open-color;
-          background-color: $icon-open-bg;
         }
       }
     }
@@ -45,9 +40,14 @@
       &.vsm--link_hover {
         .vsm--icon {
           color: $mobile-icon-color;
-          background-color: $mobile-icon-bg;
         }
       }
+    }
+    .vsm--toggle-btn {
+      color: #1e1e1e;
+      position: fixed;
+      top: 10px;
+      left: 65px;
     }
   }
 
@@ -84,6 +84,9 @@
   }
   .vsm--toggle-btn {
     color: $toggle-btn-color;
-    background-color: $toggle-btn-bg;
+    background-color: transparent;
+    position: fixed;
+    top: 10px;
+    left: 265px;
   }
 }
